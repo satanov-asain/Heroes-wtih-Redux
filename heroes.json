@@ -1,0 +1,67 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Первый герой",
+      "description": "Первый герой в рейтинге!",
+      "element": "fire"
+    },
+    {
+      "id": "d6327d34-0ed5-42e0-9432-ccb7d2a10b17",
+      "name": "Зере Гусман",
+      "description": "Сниматься в веселом казахском кино",
+      "element": "water"
+    },
+    {
+      "id": "71cc700f-1ea6-4f70-9ef7-2884127a44ff",
+      "name": "Маша Распутина",
+      "description": "Критиковать Ильича",
+      "element": "fire"
+    },
+    {
+      "id": "8cbb78cc-33b9-409a-8830-8148d0c86852",
+      "name": "Илья Свиридов",
+      "description": "Чинить японские тачки",
+      "element": "wind"
+    },
+    {
+      "id": "db6270b8-85c4-41f8-b7a7-3b4e3eb72b0d",
+      "name": "Fedor",
+      "description": "Ремонтировать баварскую классику",
+      "element": "earth"
+    },
+    {
+      "id": "7cb2daa3-7987-44c7-a4e4-492f6cc84c84",
+      "name": "Маша Распутина",
+      "description": "Петь про Гималаи",
+      "element": "water"
+    }
+  ],
+  "filters": [
+    { "id": 1, 
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    { "id": 2,
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    { "id": 3,
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    { "id": 4,
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    { "id": 5,
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}
