@@ -22,11 +22,12 @@ const filtersSlice = createSlice({
     reducers: {
         activeFilterChanged: (state, action) => {state.activeFilter = action.payload}
     },
+
     extraReducers: builder => {
         builder
             .addCase(fetchFilters.pending, state => {state.filtersLoadingStatus = 'loading'})
             .addCase(fetchFilters.fulfilled, (state, action) => {state.filtersLoadingStatus = 'idle';
-                                                                    filtersAdapter.setAll(state , action.payload)})
+                                                                    filtersAdapter.setAll(state, action.payload)})
             .addCase(fetchFilters.rejected, state => {state.filtersLoadingStatus = 'error'})
             .addDefaultCase( () => {} )
     }

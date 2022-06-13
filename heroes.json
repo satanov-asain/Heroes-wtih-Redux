@@ -25,40 +25,45 @@
       "element": "wind"
     },
     {
-      "id": "db6270b8-85c4-41f8-b7a7-3b4e3eb72b0d",
-      "name": "Fedor",
-      "description": "Ремонтировать баварскую классику",
-      "element": "earth"
-    },
-    {
       "id": "7cb2daa3-7987-44c7-a4e4-492f6cc84c84",
       "name": "Маша Распутина",
       "description": "Петь про Гималаи",
       "element": "water"
+    },
+    {
+      "id": "4b560a3c-eaa2-478c-a3bd-9348c9241dee",
+      "name": "Fedor",
+      "description": "Чинить немецкие авто",
+      "element": "wind"
     }
   ],
   "filters": [
-    { "id": 1, 
+    {
+      "id": 1,
       "name": "all",
       "label": "Все",
       "className": "btn-outline-dark"
     },
-    { "id": 2,
+    {
+      "id": 2,
       "name": "fire",
       "label": "Огонь",
       "className": "btn-danger"
     },
-    { "id": 3,
+    {
+      "id": 3,
       "name": "water",
       "label": "Вода",
       "className": "btn-primary"
     },
-    { "id": 4,
+    {
+      "id": 4,
       "name": "wind",
       "label": "Ветер",
       "className": "btn-success"
     },
-    { "id": 5,
+    {
+      "id": 5,
       "name": "earth",
       "label": "Земля",
       "className": "btn-secondary"
