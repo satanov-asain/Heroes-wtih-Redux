@@ -15,11 +15,12 @@ const HeroesAddForm = () => {
     const [heroDescr, setHeroDescr] = useState('');
     const [heroElement, setHeroElement] = useState('');
 
-    const {filtertsLoadingStatus}=useSelector(state => state.filters);
+    const {filtertsLoadingStatus} = useSelector(state => state.filters.filtersLoadingStatus);
     const filters = selectAll(store.getState());
 
-    const onSubmitHandler = (e) =>{
+    const onSubmitHandler = (e) => {
         e.preventDefault();
+        
         const newHero = {
             id: uuidv4(),
             name: heroName,
@@ -51,7 +52,7 @@ const HeroesAddForm = () => {
 
     return (
         <form   className="border p-4 shadow-lg rounded"
-                onSubmit={onSubmitHandler}>
+                onSubmit = {onSubmitHandler}>
             <div className="mb-3">
                 <label htmlFor="name" className="form-label fs-4">Имя нового героя</label>
                 <input 

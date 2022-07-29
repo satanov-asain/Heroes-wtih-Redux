@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk, createEntityAdapter } from "@reduxjs/toolkit";
+ import { createSlice, createAsyncThunk, createEntityAdapter } from "@reduxjs/toolkit";
 import { useHttp } from "../../hooks/http.hook";
 
 const filtersAdapter = createEntityAdapter();
@@ -8,11 +8,18 @@ const initialState = filtersAdapter.getInitialState({
     activeFilter: 'all'
 })
 
+const useJustFetch = () => {
+    const {request} = useHttp();
+    const result = request('http://localhost:3001/filters');
+    return result;
+}
+
 export const fetchFilters = createAsyncThunk(
     "filters/fetchFilters",
     async () => {
-        const {request} = useHttp();
-        return await request('http://localhost:3001/filters');
+        return useJustFetch();
+        // const {request} = useHttp();
+        // return await request('http://localhost:3001/filters');
     }
 )
 
@@ -45,3 +52,7 @@ export const {
     filtersFetchingError,
     activeFilterChanged
 } = actions;
+
+const str = 'http://gateway.marvel.com/v1/public/comics/58636';
+const newStr = str.split('/');
+console.log('http://gateway.marvel.com/v1/public/comics/58636'.split('/').splice(-1));

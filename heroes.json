@@ -35,6 +35,12 @@
       "name": "Fedor",
       "description": "Чинить немецкие авто",
       "element": "wind"
+    },
+    {
+      "id": "f59b3add-cd73-4131-a64e-b8ad28f4894a",
+      "name": "Fedor",
+      "description": "asda",
+      "element": "earth"
     }
   ],
   "filters": [

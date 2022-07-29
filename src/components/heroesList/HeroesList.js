@@ -74,3 +74,14 @@ const HeroesList = () => {
 }
 
 export default HeroesList;
+
+
+const returnObj = ( ) =>({
+    isLoading: true,
+    isError: false,
+    message: 'hello'
+})
+
+const map = {isLoading, isError, message} = returnObj();
+
+console.log(Object.keys(returnObj()).filter(i => i.includes('is')));

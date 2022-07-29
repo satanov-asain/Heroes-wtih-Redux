@@ -15,8 +15,10 @@ const HeroesFilters = () => {
 
     useEffect(() => {
         dispatch(fetchFilters());
-    },[])
 
+    },[])
+    // const more = dispatch(fetchFilters());
+    // console.log(more);
     if(filtersLoadingStatus==='loading'){
         return <Spinner/>;
     }

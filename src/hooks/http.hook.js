@@ -33,3 +33,29 @@ export const useHttp = () => {
             // setProcess
         }
 }
+
+const skel = 'skeleton';
+const showStr = (stat, str, extra) => {
+    if(stat === 'idle'){
+        return(
+            !extra
+            ?skel
+            :`${str}, ${extra}`
+        )
+    }
+}
+
+console.log(showStr('idle', 'hello', 'bro'));
+
+
+const older = () => {
+    return(
+        (erAdam) => {
+            console.log(`${erAdam}-ny shakyr`);
+        }
+    )
+}
+
+const shakyr = older();
+
+shakyr('Nurkeldi');
