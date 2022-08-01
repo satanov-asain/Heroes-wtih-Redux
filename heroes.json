@@ -1,46 +1,28 @@
 {
   "heroes": [
     {
-      "id": 1,
-      "name": "Первый герой",
-      "description": "Первый герой в рейтинге!",
-      "element": "fire"
-    },
-    {
-      "id": "d6327d34-0ed5-42e0-9432-ccb7d2a10b17",
-      "name": "Зере Гусман",
-      "description": "Сниматься в веселом казахском кино",
-      "element": "water"
-    },
-    {
-      "id": "71cc700f-1ea6-4f70-9ef7-2884127a44ff",
-      "name": "Маша Распутина",
-      "description": "Критиковать Ильича",
-      "element": "fire"
-    },
-    {
-      "id": "8cbb78cc-33b9-409a-8830-8148d0c86852",
-      "name": "Илья Свиридов",
-      "description": "Чинить японские тачки",
-      "element": "wind"
-    },
-    {
-      "id": "7cb2daa3-7987-44c7-a4e4-492f6cc84c84",
-      "name": "Маша Распутина",
-      "description": "Петь про Гималаи",
-      "element": "water"
-    },
-    {
-      "id": "4b560a3c-eaa2-478c-a3bd-9348c9241dee",
-      "name": "Fedor",
-      "description": "Чинить немецкие авто",
-      "element": "wind"
-    },
-    {
-      "id": "f59b3add-cd73-4131-a64e-b8ad28f4894a",
-      "name": "Fedor",
-      "description": "asda",
+      "id": "42e71d8a-ceb8-48eb-9806-906219e6e813",
+      "name": "Мичман Криворучко",
+      "description": "Уходить по одному, если что - он геолог",
       "element": "earth"
+    },
+    {
+      "id": "b62751af-8dd0-4c1b-af3c-dca29088ed03",
+      "name": "Ямамото Цунэтомо",
+      "description": "Воспитывать молодых самураев по кодексу Бушидо",
+      "element": "fire"
+    },
+    {
+      "id": "d3449062-cc02-4807-b131-66205291020f",
+      "name": "Распутин",
+      "description": "Излечивает людей. Друг семьи Романовых",
+      "element": "water"
+    },
+    {
+      "id": "6fb735b5-35d8-49e3-9b36-6c90d1f0ccb6",
+      "name": "Король Артур",
+      "description": "Вынимать из скалы, непосильные другим клинки и мечи",
+      "element": "wind"
     }
   ],
   "filters": [
